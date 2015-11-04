@@ -1,0 +1,42 @@
+body{
+  background-image: url("http://i.imgur.com/UZKEjzG.png");
+  background-size:
+    1200px
+}
+
+.castle {
+  position: absolute;
+  top: 250px;
+}
+
+.lordAdrian{
+  padding-top:2em;
+  padding-left:4em;
+}
+
+.makerCredits{
+  font-family: Comic Sans MS;
+  padding-left:1em;
+  text-align: center;
+  position: absolute;
+}
+
+.titleText{
+  font-family: courier new;
+  position:absolute;
+  text-align: right;
+  right: 5px;
+  top:2px;
+}
+
+.startButton{
+  padding-left: 250px;
+  margin: 6em;
+}
+
+.copyright{
+  font-family: courier new;
+  text-align: center;
+  position: absolute;
+  bottom: -5em;
+}
