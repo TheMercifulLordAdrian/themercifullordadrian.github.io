@@ -1,27 +1,31 @@
+@font-face {
+    font-family: myFont;
+    src: url("font/DorovarFLF-Italic.woff");
+}
 body{
   background-image: url("http://i.imgur.com/UZKEjzG.png");
   background-size:
     1200px
 }
 
-.castle {
+#castle {
   position: absolute;
   top: 250px;
 }
 
-.lordAdrian{
+#lordAdrian{
   padding-top:2em;
   padding-left:4em;
 }
 
-.makerCredits{
+#makerCredits{
   font-family: Comic Sans MS;
   padding-left:1em;
   text-align: center;
   position: absolute;
 }
 
-.titleText{
+#titleText{
   font-family: courier new;
   position:absolute;
   text-align: right;
@@ -29,30 +33,40 @@ body{
   top:2px;
 }
 
-.startButton{
+#startButton{
     margin-left: 40%;
     margin-top: 10%;
 }
 
-.copyright{
+#copyright{
   font-family: courier new;
   text-align: center;
   position: absolute;
   bottom: 2em;
 }
 
-.fighterJet{
-  visibility: hidden;
+#fighterJet{
+  display: none;
 }
 
-.lackey{
-  visibility: hidden;
+#lackey{
+  display: none;
 }
 
-.herschel{
-  visibility: hidden;
+#herschel{
+  display: none;
 }
 
-.scopeOverlay{
-  visibility: hidden; 
+#scopeOverlay{
+  display: none;
+}
+
+#dialogue1{
+  display: none;
+  font-family: myFont;
+}
+
+#dialogue2{
+  display: none;
+  display: none;
 }
