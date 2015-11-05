@@ -31,7 +31,7 @@ body{
 
 .startButton{
     margin-left: 40%;
-    margin-top: 10%
+    margin-top: 10%;
 }
 
 .copyright{
@@ -39,4 +39,20 @@ body{
   text-align: center;
   position: absolute;
   bottom: 2em;
+}
+
+.fighterJet{
+  visibility: hidden;
+}
+
+.lackey{
+  visibility: hidden;
+}
+
+.herschel{
+  visibility: hidden;
+}
+
+.scopeOverlay{
+  visibility: hidden; 
 }
