@@ -2,15 +2,20 @@
     font-family: myFont;
     src: url("font/DorovarFLF-Italic.woff");
 }
+
+.custom{
+  cursor: url(http://www.clker.com/cliparts/b/a/b/0/1207156679935151925noxin_crosshairs.svg.hi.png), auto;
+}
+
 body{
   background-image: url("http://i.imgur.com/UZKEjzG.png");
-  background-size:
-    1200px
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #castle {
   position: absolute;
-  top: 250px;
+  top: 300px;
 }
 
 #lordAdrian{
@@ -23,6 +28,7 @@ body{
   padding-left:1em;
   text-align: center;
   position: absolute;
+  top: 5em;
 }
 
 #titleText{
@@ -33,7 +39,7 @@ body{
   top:2px;
 }
 
-#startButton{
+#start{
     margin-left: 40%;
     margin-top: 10%;
 }
@@ -42,15 +48,37 @@ body{
   font-family: courier new;
   text-align: center;
   position: absolute;
-  bottom: 2em;
+  bottom: 0em;
 }
 
 #fighterJet{
   display: none;
 }
 
-#lackey{
+#lackey1{
   display: none;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+#lackey2{
+  display: none;
+  margin-left: 700px;
+}
+
+#lackey3{
+  display: none;
+  margin-left: 300px;
+}
+
+#lackey4{
+  display: none;
+  margin-left: 900px;
+}
+
+#lackey5{
+  display: none;
+  margin-left: 100px;
 }
 
 #herschel{
@@ -68,5 +96,45 @@ body{
 
 #dialogue2{
   display: none;
+  font-family: myFont;
+  position: absolute;
+  left: 100px;
+}
+
+#okayButton1{
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 200px;
+}
+#okayButton2{
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 200px;
+  }
+
+#lordAdrian2{
+  display: none;
+}
+#lackeyBackground{
+  background-image: url("http://s.pro-gmedia.com/videogamer/media/images/xbox360/cod_mw3/screens/cod_mw3_8.jpg");
+  background-size: 100px;
+  display: none;
+}
+
+#fighterJetBackground{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/54/London_Blitz_791940.jpg");
+  background-size: 100px;
+  display: none;
+}
+
+#wellDone{
+  font-family: myFont;
+  position: absolute;
+  right: 30px;
+  top: :200px;
+  background-color: black;
+  color: yellow;
   display: none;
 }
