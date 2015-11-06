@@ -71,6 +71,7 @@ $(document).ready(function() {
     	$("#scopeOverlay").css('display', 'block');
     	$("#scopeOverlay").css('display', 'none');
     	$("#wellDone").css('display', 'block');
+        $("#okayButton3").css('display', 'block');
 
     });    
 
