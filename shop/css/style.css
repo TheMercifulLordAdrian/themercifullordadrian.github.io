@@ -1,0 +1,111 @@
+.companyLogo {
+  font-size: 30px;
+  color: black;
+  width: 23%;
+  display: inline-block;
+  margin-left: 10px;
+}
+.companyLogo a {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+  color:black;
+}
+.menuBar {
+  background-color: #f496ff;
+  width: 98%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+}
+.menuBar a {
+  display: inline;
+  margin: 5px 5%;
+}
+li {
+  list-style-type: none;
+  line-height: 40px;
+}
+.loginSignup {
+  font-size: 12px;
+  width: 15%;
+  font-weight: bold;
+  display: inline-block;
+  float: right;
+  margin: 10px;
+}
+.productCategories {
+  width: 23%;
+  background-color: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  left: 10px;
+  height: 400px;
+  font-size: 20px;
+}
+.banner {
+  display: inline-block;
+}
+#banner {
+  height: 350px;
+  width: 500px;
+}
+#hcsr04{
+  height: 160px;
+  width: 240px;
+}
+#esp8266 {
+  height: 160px;
+  width: 160px;
+}
+#dht22 {
+  height: 160px;
+  width: 160px;
+}
+.featured3 p {
+  width: 160px;
+}
+.featuredProducts {
+  background-color: #ff8528;
+  float: right;
+  width: 78%;
+  
+}
+#maleJumper {
+  height: 160px;
+  width: 160px;
+}
+.featured4 p {
+  width: 160px;
+}
+#arduinoMicro {
+  width: 160px;
+  height: 160px;
+}
+#ethernetShield {
+  width: 160px;
+  height: 160px;
+}
+.featured6 {
+  width: 160px;
+}
