@@ -69,6 +69,7 @@ li {
 #banner {
   height: 350px;
   width: 500px;
+  margin-left: 10px;
 }
 #hcsr04{
   height: 160px;
