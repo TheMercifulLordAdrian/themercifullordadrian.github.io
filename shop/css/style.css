@@ -82,20 +82,18 @@ li {
   height: 160px;
   width: 160px;
 }
-.featured3 p {
-  width: 160px;
-}
 .featuredProducts {
   background-color: #ff8528;
   float: right;
   width: 78%;
   text-align: center;
 }
+.featuredText {
+  width: 58%;
+  margin: 0 auto;
+}
 #maleJumper {
   height: 160px;
-  width: 160px;
-}
-.featured4 p {
   width: 160px;
 }
 #arduinoMicro {
