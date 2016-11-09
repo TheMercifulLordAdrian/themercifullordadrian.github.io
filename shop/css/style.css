@@ -62,7 +62,6 @@ li {
   left: 10px;
   height: 400px;
   font-size: 20px;
-  text-align: center;
 }
 .banner {
   display: inline-block;
@@ -90,6 +89,7 @@ li {
   background-color: #ff8528;
   float: right;
   width: 78%;
+  text-align: center;
   
 }
 #maleJumper {
