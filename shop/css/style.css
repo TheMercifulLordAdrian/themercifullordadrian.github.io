@@ -112,6 +112,5 @@ li {
   width: 160px;
 }
 .disclaimer {
-  text-align: bottom;
-  padding-left: 10px;
+  background-color: grey;
 }
