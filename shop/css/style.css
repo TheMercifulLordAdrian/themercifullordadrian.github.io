@@ -62,6 +62,7 @@ li {
   left: 10px;
   height: 350px;
   font-size: 20px;
+  width: 100%;
 }
 .banner {
   display: inline-block;
