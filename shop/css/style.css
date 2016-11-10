@@ -114,5 +114,10 @@ li {
 .footer {
   background-color: #bababa;
   color: #000000;
+}
+.disclaimer {
+  padding-top: 10px;
+}
+.siteMap {
   padding-top: 10px;
 }
