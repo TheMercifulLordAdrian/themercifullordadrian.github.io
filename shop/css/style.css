@@ -85,7 +85,6 @@ li {
   width: 160px;
 }
 .featuredProducts {
-  background-color: #ff8528;
   float: right !important;
   width: 76%;
   margin-top: 20px;
@@ -120,4 +119,8 @@ li {
 }
 .siteMap {
   padding-top: 20px;
+}
+.featuredBig {
+    background-color: #ff8528;
+    margin-left: 320px !important;
 }
