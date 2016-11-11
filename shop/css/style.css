@@ -118,9 +118,11 @@ li {
 }
 .disclaimer {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .siteMap {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .featuredBig {
     background-color: #ff8528;
@@ -142,7 +144,6 @@ li {
   text-align: left;
   margin-top: 50px;
   font-size: 20px;
-  width: 40%;
 }
 .productPrice {
   text-align: left;
@@ -172,4 +173,39 @@ li {
   position: relative;
   display: inline-block;
   top: -10px;
+}
+.share {
+  position: relative;
+  margin: 0 auto;
+  top: 117px;
+  left: -303px;
+}
+.productDescript p {
+  width: 500px;
+}
+#widget {
+  display: inline-block;
+  overflow: hidden;
+  text-align: left;
+  white-space: nowrap;
+}
+.btn-o {
+  max-width: 100%;
+}
+.btn {
+  position: relative;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #56b6ff;
+  box-sizing: border-box;
+}
+.xl .btn {
+  height: 28px;
+  padding: 1px 10px 1px 9px;
+  border-radius: 4px;
+}
+#twitterbird {
+  height: 20px;
+  width: 20px;
 }
